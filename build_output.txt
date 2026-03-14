@@ -1,0 +1,12 @@
+﻿  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GlanceSearch.Shared -> D:\Android Apps\Apps Here\GlanceSearch\src\GlanceSearch.Shared\bin\Debug\net8.0-windows\GlanceSearch.Shared.dll
+  GlanceSearch.Core -> D:\Android Apps\Apps Here\GlanceSearch\src\GlanceSearch.Core\bin\Debug\net8.0-windows10.0.19041.0\GlanceSearch.Core.dll
+  GlanceSearch.Infrastructure -> D:\Android Apps\Apps Here\GlanceSearch\src\GlanceSearch.Infrastructure\bin\Debug\net8.0-windows10.0.19041.0\GlanceSearch.Infrastructure.dll
+  GlanceSearch.App -> D:\Android Apps\Apps Here\GlanceSearch\src\GlanceSearch.App\bin\Debug\net8.0-windows10.0.19041.0\GlanceSearch.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.84

@@ -1,0 +1,95 @@
+# GlanceSearch .gitignore
+
+## Internal / planning docs (not for public repo)
+GlanceSearch App PRD.md
+build_output.txt
+build_log.txt
+
+## .NET build output
+**/bin/
+**/obj/
+**/[Bb]in/
+**/[Oo]bj/
+out/
+publish/
+build/
+
+## IDE / User-specific
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.DotSettings.user
+launchSettings.json
+
+## NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+*.ipr
+*.iws
+
+## OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._*
+[Dd]esktop.ini
+
+## Debug / logs
+*.log
+logs/
+
+## Test results
+TestResults/
+coverage/
+*.trx
+
+## Self-contained publish output (built artifacts, not source)
+*.exe
+
+## Installer source scripts are tracked; built artifacts are not
+## NSIS output
+installer/Output/
+installer/*.exe
+
+## Runtime / temp
+artifacts/
+BenchmarkDotNet.Artifacts/
+
+## Database files (user data — never commit)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+## Tesseract trained data (downloaded at runtime, not part of source)
+tessdata/*.traineddata
+tessdata/
+
+## User settings and captures (generated at runtime)
+## (These live in %AppData%\GlanceSearch, not in the project, but listed for safety)
+captures/
+captures-thumb/
+
+## Secrets / environment
+.env
+.env.*
+secrets.json
+appsettings.Development.json
+
+## Archives
+*.zip
+*.7z
+*.rar
+*.tar.gz

@@ -1,0 +1,19 @@
+﻿<Application x:Class="GlanceSearch.App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             ShutdownMode="OnExplicitShutdown">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Dark Theme Colors -->
+            <SolidColorBrush x:Key="BackgroundBrush" Color="#1C1C1C"/>
+            <SolidColorBrush x:Key="SurfaceBrush" Color="#2D2D2D"/>
+            <SolidColorBrush x:Key="SurfaceHoverBrush" Color="#3D3D3D"/>
+            <SolidColorBrush x:Key="PrimaryBrush" Color="#0078D4"/>
+            <SolidColorBrush x:Key="TextPrimaryBrush" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="TextSecondaryBrush" Color="#9E9E9E"/>
+            <SolidColorBrush x:Key="BorderBrush" Color="#404040"/>
+            <SolidColorBrush x:Key="SuccessBrush" Color="#0F7B0F"/>
+            <SolidColorBrush x:Key="ErrorBrush" Color="#C42B1C"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
