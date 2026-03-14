@@ -4,6 +4,7 @@
 GlanceSearch App PRD.md
 build_output.txt
 build_log.txt
+RELEASE_NOTES_*.md
 
 ## .NET build output
 **/bin/
